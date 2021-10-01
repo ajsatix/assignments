@@ -5,7 +5,8 @@
 * You might need an AWS/Azure/GCP account. Create one if you do not own one already. You can use free-tier resources for this test.
 
 ## Updates
-* Do not push to main or test branch
+* Do not push to main or "dev" branch
+* "dev" branch will have the assignments
 * Create your own branch to push updates
 
 ## Terraform
@@ -15,4 +16,3 @@
   * Scalability
   * Security & Hardening
   * Compliances
-
