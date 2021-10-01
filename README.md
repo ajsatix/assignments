@@ -9,11 +9,10 @@
 * Create your own branch to push updates
 
 ## Terraform
-### Assignment 1 - test_wp_gke_code
-* Check the current terraform code and recommend as well as update the code to enhance
-  * Adherence to standard practices
-    * IAC
-    * Scalability
-    * Security & Hardening
-    * Compliances
+### Assignment 1 - test_wp_gke_code (Deploy Wordpress on GCP GKE starting from setup of a VPC)
+* Check the current terraform code and recommend as well as update the code to enhance adherence to standard practices
+  * IAC
+  * Scalability
+  * Security & Hardening
+  * Compliances
 
