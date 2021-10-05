@@ -16,4 +16,9 @@
   * Scalability
   * Security & Hardening
   * Compliances
+  * Other
+    * What compliances are you aware of for this type of infrastructure? Pick one, How would you apply that here? Show code if possible
+    * What kind of scalability can be implemented here? Pick one, How would you implement it? Show code if possible
+    * What different security and hardening options are you aware of? Pick one, How would you approach it in this environment? Show code if possible
+
 
