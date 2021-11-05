@@ -1,25 +1,15 @@
-# General Assignments
+# About the code completed
+ * It has two projects prod and dev. Worpress is deployed in GKE in dev and DB is install in prod
+ * VPC and subnets are created and correspondingly they are peered between prod and dev. Firewall also has been set in teeraform.
+ * setup  of gke in default regeion.
+ * wordress deployement is done via terraform to gke
 
-## Prerequisites
-* You need a github account to push your branch (submit your solution) to remote.
-* You might need an AWS/Azure/GCP account. Create one if you do not own one already. You can use free-tier resources for this test.
-
-## Updates
-* Do not push to main or "dev" branch
-* "dev" branch will have the assignments
-* Create your own branch to push updates
-
-## Terraform
-### Assignment 1 - test_wp_gke_code (Deploy Wordpress on GCP GKE starting from setup of a VPC)
-* Check the current terraform code and recommend as well as update the code to enhance adherence to standard practices
-  * IAC
-  * Scalability
-  * Security & Hardening
-  * Compliances
-  * Other
-    * What compliances are you aware of for this type of infrastructure? Pick one, How would you apply that here? Show code if possible
-    * What kind of scalability can be implemented here? Pick one, How would you implement it? Show code if possible
-    * What different security and hardening options are you aware of? Pick one, How would you approach it in this environment? Show code if possible
-  * If you plan to do more but not as code (items relevant to Other Section), feel free to update Readme with further plan of action.  
+# suggestions and improvements
+* GCR container regestriy can be used to store images. GCR comes with vulnerability scan. Ideal way is to create a base linux image and harden it. then install wordpress on it. push the docker to GCR and perform a vulnerability scan.
+* Terraform modules need to be created so that the code becomes modular and reusable.
+* Add an Inngress controller for incoming traffic
+* secrets management we can setup vault in GKE in a diiferent GKE cluster.
 
 
+# Output.txt
+* it contains the output of the tf code.
